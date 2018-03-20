@@ -16,6 +16,8 @@ function! repl#run_repl() abort
     call repl#haskell#open_repl()
   elseif &filetype ==# 'erlang'
     call repl#erlang#open_repl()
+  elseif &filetype ==# 'lua'
+    call repl#lua#open_repl()
   elseif &filetype ==# 'python'
     call repl#python#open_repl()
   elseif &filetype ==# 'javascript'

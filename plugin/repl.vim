@@ -25,6 +25,10 @@ let g:repl#default_filetype_repl = {
 \   'repl' : 'erl',
 \   'opt'  : ''
 \ },
+\ 'lua' : {
+\   'repl' : 'luap',
+\   'opt'  : '-i'
+\ },
 \ 'javascript' : {
 \   'repl' : 'node',
 \   'opt'  : '-i'
